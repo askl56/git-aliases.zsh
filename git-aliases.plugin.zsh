@@ -12,6 +12,7 @@ alias gf='git fetch'
 alias gb='git branch'
 alias unmerged="git branch --no-merged"
 alias plog="git log --oneline --decorate"
+alias gcm="git commit -m"
 
 reset() {
   if [ $# -eq 0 ]; then
